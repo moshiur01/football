@@ -1,0 +1,262 @@
+/* used font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+/* commmon applied styles */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+/* section-01 applied styles */
+.section1-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  padding-bottom: 86px;
+  padding-bottom: 200px;
+}
+
+.section01-style {
+  background-color: #2d25a0;
+  width: 100%;
+  height: 667px;
+  margin-bottom: 100px;
+}
+.section1-heading {
+  color: #ffffff;
+  font-size: 64px;
+  width: 485px;
+  height: 230px;
+  margin-bottom: 80px;
+}
+
+.section1-banner img {
+  margin-top: 100px;
+  width: 556.01px;
+  height: 438px;
+}
+.button-hover {
+  width: 164px;
+  height: 44px;
+}
+.sec01-button {
+  text-decoration: none;
+  background-color: #e02c6d;
+  color: white;
+  font-size: 16px;
+  font-weight: 500px;
+  padding: 10px 24px;
+  overflow: hidden;
+}
+.fa-arrow-right {
+  padding-left: 8px;
+}
+
+.button-hover:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+/* section-01 end */
+
+/* section-02 applied styles */
+.players {
+  margin-top: 85px;
+  margin-left: 195px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 27px;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+.player {
+  width: 330px;
+  height: 474px;
+  box-shadow: 0px 0px 30px #c9c9c9;
+}
+
+.border-padding {
+  padding: 12px 15px;
+}
+.player img {
+  width: 300px;
+  height: 256px;
+}
+.player-name {
+  font-size: 28px;
+}
+.player-info {
+  margin-top: -13px;
+  width: 300px;
+  color: #919191;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: normal;
+}
+/* section-02 end */
+
+/* extra feature style */
+
+/* 1st-feature */
+.common-heading {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 54px;
+}
+.newses {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.news {
+  margin-left: 50px;
+  width: 340px;
+  height: 370px;
+  box-shadow: 0px 0px 30px #c9c9c9;
+}
+.news img {
+  width: 100%;
+  height: 280px;
+}
+
+.news:hover {
+  transform: scale(1.1);
+}
+
+/* 2nd feature */
+.photo-album-style {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 100px;
+}
+.photo-style {
+  margin-left: 50px;
+  width: 340px;
+  height: 370px;
+  box-shadow: 0px 0px 30px #c9c9c9;
+  overflow: hidden;
+  position: relative;
+}
+.photo-style img {
+  width: 350px;
+  height: 280px;
+}
+.photo-heading {
+  text-align: center;
+}
+
+.caption a {
+  display: none;
+  text-decoration: none;
+  font-size: 2em;
+  color: white;
+  width: 360px;
+  position: absolute;
+  top: 120px;
+  text-align: center;
+}
+.photo-style:hover .caption a {
+  display: block;
+  background-color: rgba(220, 220, 220, 0.52);
+}
+
+.photo-style:hover {
+  transform: scale(1.3);
+  transition: transform 0.5s ease-in-out;
+}
+
+/* footer style start */
+
+.footer-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-image {
+  width: 483.87px;
+  height: 110px;
+}
+.fa-basketball-ball {
+  width: 32px;
+  height: 32px;
+}
+.social-media {
+  margin-left: -80px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo-style {
+  width: 32px;
+  height: 32px;
+  color: #919191;
+}
+.footer-paragraph {
+  margin-top: -10px;
+  font-size: 18px;
+  text-align: center;
+  margin-left: -52px;
+}
+
+/* footer style end */
+
+/* Media Quaries for mobile */
+
+@media only screen and (max-width: 668px) {
+  .section1-flex {
+    flex-direction: column;
+  }
+  .section1-banner img {
+    margin-top: 15px;
+    width: 329px;
+    height: 256px;
+  }
+
+  .section1-heading {
+    margin-top: 50px;
+    font-size: 36px;
+    width: 278px;
+    height: 138px;
+  }
+
+  .players {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .player {
+    margin-top: -50px;
+    margin-left: -330px;
+    margin-bottom: 40px;
+  }
+
+  .newses,
+  .photo-album-style {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .news,
+  .photo-style {
+    margin-left: -2px;
+    margin-bottom: 40px;
+  }
+
+  .footer {
+    margin-top: -80px;
+  }
+
+  .footer-image {
+    width: 300px;
+    height: 100px;
+  }
+
+  .social-media {
+    margin-left: 30px;
+  }
+  .footer-paragraph {
+    margin-left: 15px;
+  }
+}
