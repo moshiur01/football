@@ -184,12 +184,14 @@ body {
   height: 32px;
 }
 .social-media {
-  margin-left: -80px;
+  font-size: 22px;
+  margin-left: -15px;
   display: flex;
   align-items: center;
 }
 
 .footer-logo-style {
+  margin-right: 15px;
   width: 32px;
   height: 32px;
   color: #919191;
