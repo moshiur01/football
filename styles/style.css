@@ -206,22 +206,27 @@ body {
 /* footer style end */
 
 /* Media Quaries for mobile */
-
 @media only screen and (max-width: 668px) {
   .section1-flex {
     flex-direction: column;
   }
-  .section1-banner img {
-    margin-top: 15px;
-    width: 329px;
-    height: 256px;
-  }
 
+  .sec01-button {
+    margin-left: -70px;
+  }
   .section1-heading {
+    margin-left: -75px;
     margin-top: 50px;
     font-size: 36px;
     width: 278px;
     height: 138px;
+  }
+
+  .section1-banner img {
+    margin-left: -100px;
+    margin-top: 15px;
+    width: 250px;
+    height: 256px;
   }
 
   .players {
